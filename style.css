@@ -1,0 +1,15 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E7EB;
+}
+
+img
+{
+    width: 33.333%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
