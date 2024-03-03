@@ -21,7 +21,7 @@ body
 
 img.background-image
 {
-    width: max(90vw, 45%);
+    width: max(30vw, 45%);
     height: min(100%, 150%);
     position: relative;
     top: 0;
@@ -42,11 +42,10 @@ img.background-image
 {
     display: flex;
     flex-direction: column;
-    width: ;
     height: 33.333vh;
-    border: 1px solid lightgray;
     font-weight: bolder;
-    font-size: 5rem;
+    font-size: 2.5rem;
+    padding: 15px;
     justify-content: center;
     align-items: center;
     background-color: lightgray;
