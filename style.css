@@ -78,6 +78,7 @@ img.background-image
     background-color: white;
     justify-content: flex-start;
     align-items: flex-start;
+    font-size: 1.2rem;
 }
 
 form
@@ -89,7 +90,6 @@ form
     background-color: whitesmoke;
     font-family: "Raleway", sans-serif;
     font-weight: 200;
-    font-size: 2rem;
     flex-basis: 33.333%;
 }
 
