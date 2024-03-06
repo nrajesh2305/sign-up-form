@@ -12,6 +12,13 @@ body
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+.raleway-font{
+  font-family: "Raleway", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
 .global_container
 {
     display: flex;
@@ -53,8 +60,43 @@ img.background-image
 
 .side_global_container .three
 {
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.side_global_container .second
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
     justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.side_global_container .second div
+{
+    background-color: white;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+form
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* Make color white later when done making form. */
+    background-color: whitesmoke;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    flex-basis: 33.333%;
+}
+
+form > div
+{
+    display: flex;
+    flex-basis: 33.333%;
 }
 
 button.create_account
@@ -82,10 +124,14 @@ button.create_account:hover
 p.has_premade_account
 {
     display: flex;
-    justify-content: flex-end;
-    width: fit-content;
-    height: fit-content;
     font-weight: 400;
     font-size: medium;
 }
+
+.sign-in-section:hover
+{
+    color: #596D48;
+    cursor: pointer;
+}
+
 

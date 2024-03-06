@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -15,15 +18,39 @@
                 Sign up now for access to tailored trips worldwide that fit your schedule, 
                 keeping both you and your boss happy! That is.... if you have a job.
             </div>
-            <div>
-                User info stuff here.
+            <div class="second">
+                Let's do this!
+                <form action="#" method="get" class="form">
+                    <div>
+                        <label for="first_name">*First Name:
+                        </label>
+                        <input type="text" name="first_name" id="first_name" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="last_name">*Last Name:
+                        </label>
+                        <input type="text" name="last_name" id="last_name" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="user_email">*Email:
+                        </label>
+                        <input type="email" name="user_email" id="user_email" required>
+                    </div>
+                    <div>
+                        <label for="user_email">*Email:
+                        </label>
+                        <input type="email" name="user_email" id="user_email" required>
+                    </div>
+                </form>
             </div>
             <div class="three">
                 <button class="create_account">
                     Create Account
                 </button>
                 <p class="has_premade_account">
-                    Already have an account? Sign in.
+                    Already have an account?<span style="color: #596D48" class="sign-in-section">&nbsp;Sign in.</span>
                 </p>
             </div>
         </div>
